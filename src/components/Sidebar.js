@@ -8,7 +8,7 @@ const Sidebar = () =>{
         outlineColor:'black', 
         outlineWidth: '1px',
         textAlign:'center',
-        height:'700px',
+        height:'690px',
         width:'30%',
        }}>
     <SidebarContent

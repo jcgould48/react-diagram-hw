@@ -6,8 +6,10 @@ const MainContent = () =>{
     style={{outlineStyle : 'solid', 
     outlineColor:'black', 
     outlineWidth: '1px',
-    height:'40px',
-    width:'40px',}}> 
+    height:'100px',
+    width:'100px',
+    marginLeft:'100px',
+    }}> 
     </div>
     )
 }
