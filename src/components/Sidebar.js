@@ -10,15 +10,19 @@ const Sidebar = () =>{
         textAlign:'center',
         height:'690px',
         width:'30%',
+        backgroundColor:'lightBlue'
        }}>
     <SidebarContent
-    sideText = "text"
+    sideText = "tacos"
     />
     <SidebarContent
-    sideText = "text"
+    sideText = "lasagna"
     />
     <SidebarContent
-    sideText = "text"
+    sideText = "sushi"
+    />
+    <SidebarContent
+    sideText = "BBQ"
     />
     <h3>Sidebar</h3>
     </div>

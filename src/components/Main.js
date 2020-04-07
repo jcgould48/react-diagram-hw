@@ -1,5 +1,6 @@
 import React from 'react';
 import MainContent from './MainContent'
+import faker from 'faker';
 
 const Main = () =>{
   return (
@@ -9,11 +10,11 @@ const Main = () =>{
         outlineWidth: '1px',
         height:'690px',
         width:'70%',
-        
+        backgroundColor:'pink'
         }}>
         <img 
         src="images/mainstreet.jpg" 
-        style={{width:500, height:350}} 
+        style={{width:400, height:300}} 
         alt="..."/>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
@@ -28,9 +29,19 @@ const Main = () =>{
         style={{
           float:'center'}}
         >
-        <MainContent />
-        <MainContent/>
-        <MainContent />
+        <MainContent 
+            image={faker.image.avatar()} 
+            text="Square 1"/>
+        <MainContent 
+            image={faker.image.avatar()} 
+            text="Square 2"/>
+        <MainContent 
+            image={faker.image.avatar()} 
+            text="Square 3"/>
+        <MainContent 
+            image={faker.image.avatar()} 
+            text="Square 5"/>
+      
         </div>
         </div>
   )

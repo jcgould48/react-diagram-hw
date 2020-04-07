@@ -1,16 +1,20 @@
 import React from 'react';
 
-const MainContent = () =>{
+const MainContent = (props) =>{
   return (
-    <div className="column" 
-    style={{outlineStyle : 'solid', 
-    outlineColor:'black', 
-    outlineWidth: '1px',
+    <div 
+    style={{
+   
     height:'100px',
     width:'100px',
-    marginLeft:'100px',
-    }}> 
-    </div>
+    marginLeft:'115px',
+    }}>
+  <div className="container">
+  <img className= "image" src= {props.image} alt="..."/>
+  <div className="centered text">{props.text}</div>
+  </div>
+</div>
+    
     )
 }
 

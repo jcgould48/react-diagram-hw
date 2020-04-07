@@ -8,7 +8,8 @@ const Header = () =>{
     outlineWidth: '1px',
     height: '75px',
     width: '100%',
-    textAlign: 'center'
+    textAlign: 'center',
+    backgroundColor:'lightGreen'
   }}>
     <h1>My Header</h1>
     </header>
